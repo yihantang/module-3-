@@ -9,6 +9,6 @@ results <- cbind(Name, ABC_politicalpollresults, NCB_politicalpollresults)
 
 results.df <-data.frame(Name, ABC_politicalpollresults, NCB_politicalpollresults)
 
-mean(results.df[,2;3])
+mean(results.df[,2:3])
 
 
